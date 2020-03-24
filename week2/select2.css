@@ -1,0 +1,21 @@
+li:nth-child(even) {
+  color: red;
+}
+li:nth-child(odd) {
+  color: blue;
+}
+li:first-child {
+  color: hotpink;
+}
+li:last-child {
+  color: indigo;
+}
+li:nth-child(7) {
+  color: cadetblue;
+}
+p:only-child {
+  color: greenyellow;
+}
+li:nth-child(5n+0) {
+  color: black;
+}

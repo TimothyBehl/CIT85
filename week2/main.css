@@ -1,0 +1,15 @@
+div p {
+  background-color: coral;
+}
+
+div > p {
+  background-color: powderblue;
+}
+
+div ~ p {
+  background-color: royalblue;
+}
+
+div + p {
+  background-color: palegreen;
+}

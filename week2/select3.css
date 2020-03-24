@@ -1,0 +1,6 @@
+p::first-line {
+  color: red;
+}
+p::first-letter {
+  color: blue;
+}

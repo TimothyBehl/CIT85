@@ -1,0 +1,70 @@
+/* Specificity: 1 */
+body {
+  color: antiquewhite;
+}
+
+/* Specificity: 1 */
+div {
+  color: slateblue;
+  width: 900px;
+  height: 700px;
+  border: 3px solid darkgrey;
+}
+
+/* Specificity: 2 */
+div div {
+  color: yellow;
+  width: 850px;
+  height: 600px;
+  border: 3px solid grey;
+}
+
+/* Specificity: 1 */
+h1 {
+  width: 175px;
+  height: 50px;
+  border: 3px solid darkgrey;
+  color: orange;
+}
+
+/* Specificity: 3 */
+div div h1 {
+  width: 100px;
+  height: 50px;
+  border: 3px solid darkgrey;
+  color: green;
+}
+
+/* Specificity: 1 */
+p {
+  width: 500px;
+  height: 100px;
+  border: 3px solid darkgrey;
+  color: darkmagenta;
+}
+
+/* Specificity: 100 */
+#subcontent {
+  width: 700px;
+  height: 500px;
+  border: 3px dotted darkolivegreen;
+  color: saddlebrown;
+}
+
+/* Specificity: 10 */
+.subcontent-text {
+  width: 500px;
+  height: 75px;
+  border: 3px dotted slateblue;
+  color: blue;
+}
+
+/* Specificity: 11 */
+div:first-child {
+  color: black;
+}
+
+/* Specificity: 11 */
+p:last-of-type {
+  color: black;
+}

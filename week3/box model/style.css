@@ -1,0 +1,26 @@
+div {
+  border: 2px solid black;
+  padding: 2px;
+  margin: 5px;
+}
+
+.inline-div {
+  display: inline;
+  background-color: beige;
+}
+
+.block-div {
+  display: block;
+  background-color: blanchedalmond;
+  width: 200px;
+}
+
+.block-div-nowidth {
+  display: block;
+  background-color: blanchedalmond;
+}
+
+.inline-block-div {
+  display: inline-block;
+  background-color: burlywood;
+}

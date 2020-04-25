@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  flex-flow: row;
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  color: white;
+}
+
+.item1 {
+  flex-grow: 1;
+  background-color: darkblue;
+}
+
+.subcontainer {
+  flex-grow: 3;
+  border: 2px solid red;
+  display: flex;
+  flex-flow: column;
+}
+
+.item2 {
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.item3 {
+  flex-grow: 1;
+  background-color: dodgerblue;
+}

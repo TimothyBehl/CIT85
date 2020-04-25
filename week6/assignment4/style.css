@@ -1,0 +1,37 @@
+.container {
+  border: 3px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container > div {
+  height: 100px;
+  flex-grow: 1;
+}
+
+.item1 {
+  background-color: darkblue;
+  width: 60%;
+}
+
+.item2 {
+  background-color: blue;
+  width: 40%;
+}
+
+.item3 {
+  background-color: deepskyblue;
+  width: 30%;
+}
+
+.item4 {
+  background-color: lightblue;
+  width: 30%;
+}
+
+.item5 {
+  background-color: gainsboro;
+  width: 30%;
+}

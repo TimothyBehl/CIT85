@@ -1,0 +1,39 @@
+.container {
+  border: 3px solid red;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container > div {
+  border: 2px solid black;
+  height: 150px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.item1 {
+  width: 100%;
+  background-color: orangered;
+}
+
+.item2 {
+  width: 59%;
+  background-color: lightskyblue;
+}
+
+.item3 {
+  width: 40%;
+  background-color: mediumspringgreen;
+}
+
+.item4, .item5 {
+  width: 49%;
+}
+
+.item4 {
+  background-color: yellow;
+}
+
+.item5 {
+  background-color: blueviolet;
+}

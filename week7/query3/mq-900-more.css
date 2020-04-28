@@ -1,0 +1,13 @@
+nav {
+  width: 15%;
+}
+
+main {
+  width: 80%;
+  flex-grow: 1;
+}
+
+ul {
+  flex-flow: column nowrap;
+  padding-left: 0px;
+}

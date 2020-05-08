@@ -1,0 +1,27 @@
+#relative {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: crimson;
+  color: white;
+}
+
+#absolute1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 450px;
+  left: 50px;
+  background-color: teal;
+  color: white;
+}
+
+#absolute2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 800px;
+  background-color: teal;
+  color: white;
+}

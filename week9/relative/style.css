@@ -1,0 +1,13 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: springgreen;
+}
+
+#relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  background-color: teal;
+  color: white;
+}
